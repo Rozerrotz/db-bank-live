@@ -249,7 +249,6 @@ button { -webkit-appearance: none; cursor: pointer; }
 .tabs-sticky {
   background: var(--bg);
   padding: 0 16px 8px;
-}
 .scroll-content {
   padding: 0 16px 40px;
   background: var(--bg);
@@ -282,7 +281,7 @@ button { -webkit-appearance: none; cursor: pointer; }
 /* search overlay */
 .search-overlay {
   position: fixed; inset: 0;
-  zoom: 1; /* (Rozer) stay locked to the real screen, ignore the app zoom level */
+  
   background: rgba(26,53,96,0.3);
   backdrop-filter: blur(3px);
   z-index: 9000;
@@ -334,8 +333,6 @@ button { -webkit-appearance: none; cursor: pointer; }
 /* transfer overlay */
 .transfer-overlay {
   position: fixed; inset: 0;
-  zoom: 1; /* (Rozer) stay locked to the real screen, ignore the app zoom level */
-  background: rgba(26,53,96,0.3);
   backdrop-filter: blur(3px);
   z-index: 9000;
   display: none; align-items: flex-start; justify-content: center;
@@ -1056,7 +1053,6 @@ button { -webkit-appearance: none; cursor: pointer; }
 .full-overlay {
   display: none;
   position: fixed; inset: 0; z-index: 9999;
-  zoom: 1; /* (Rozer) stay locked to the real screen, ignore the app zoom level */
   background: var(--bg);
   overflow-y: auto; -webkit-overflow-scrolling: touch;
 }
